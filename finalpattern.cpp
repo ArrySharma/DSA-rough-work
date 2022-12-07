@@ -10,12 +10,12 @@ int main(){
     while(i<=n){
 
         // first triangle
-        int count = 1;
-        int j = n - i +1;
-        while(j){
-            cout<< " " << count;
-            count++;
-            j--;
+        // int count = 1;
+        int j = 1;
+        while(j<=n - i + 1){
+            cout<< " " << j;
+            // count++;
+            j++;
 
         }
 
@@ -28,10 +28,10 @@ int main(){
 
         // third pattern
         int k = n - i + 1;
-        int counttwo = n - i + 1;
+        // int counttwo = n - i + 1;
         while(k){
-            cout<< " " << counttwo;
-            counttwo--;
+            cout<< " " << k;
+            // counttwo--;
             k--;
         }
 
